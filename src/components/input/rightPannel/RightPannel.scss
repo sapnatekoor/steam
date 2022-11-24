@@ -1,0 +1,29 @@
+.sidebar-container {
+    width: 500px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right:  -500px;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition: .3s ease all;
+    transition: .3s ease all;
+    background:white;padding: 70px 20px;
+
+    &.open {
+      right: 0px;
+      animation: 0.1s ease-in-out swingViewport;
+
+    }
+  }
+
+  @keyframes swingViewport {
+    from {
+        transform: translateX(calc(100vw - 100%));
+
+    }
+    to {
+        transform: translateX(0);
+
+    }
+  }

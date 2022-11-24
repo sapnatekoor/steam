@@ -1,0 +1,41 @@
+.main-container{
+    background-color: white;
+    max-width: 90%;
+    margin: 80px auto;
+    font-family: sans-serif;
+h1{
+    font-size: 32px;
+    line-height: 44px;
+    color: rgb(49, 49, 49);
+    margin: 0 0 12px 0;
+}
+p{
+    font-size: 20px;
+    line-height: 32px;
+    color: rgb(148, 147, 147);
+    margin: 0 0 0px 0; 
+}
+    .grid-container{
+        margin: 40px 0px;
+        background-size: 60px 60px;
+        background-image: linear-gradient(90deg, rgb(119, 119, 119) 1px, transparent 0px), linear-gradient(rgb(119, 119, 119) 1px, transparent 0px);
+        max-height: 90%;
+        height: 500px;
+        padding: 70px;
+        border: 0.5px solid rgb(119, 119, 119);
+        textarea {
+            border: none;
+            display: block;
+            width: 100%;
+            background-color: white;
+            outline: none !important;
+            font-size: 16px;
+            line-height: 28px;
+
+         
+         }
+    }
+    .button-container{
+        
+    }
+}
